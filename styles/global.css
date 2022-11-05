@@ -1,0 +1,44 @@
+  @import url(
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap'
+  );
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  .layout  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* MediaQueries */
+  @media only screen and (max-width: 950px) {
+    html {
+      font-size: 8px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    html {
+      font-size: 6.5px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 10px;
+    }
+
+    .layout {
+      height: initial;
+      margin: 3rem 0 5rem;
+    }
+  }

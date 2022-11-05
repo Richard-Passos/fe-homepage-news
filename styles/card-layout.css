@@ -1,0 +1,15 @@
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.8rem;
+    width: 85rem;
+    max-width: 90vw;
+  }
+
+  /* MediaQueries */
+  @media only screen and (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }

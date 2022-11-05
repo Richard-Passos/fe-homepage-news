@@ -1,0 +1,65 @@
+  .main {
+    grid-column: 1/3;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .container_main_img {
+    grid-column: 1/3;
+  }
+
+  .main_img {
+    width: 100%;
+    height: 23rem;
+  }
+
+  .main_title {
+    grid-column: 1/2;
+
+    color: var(--Very-dark-blue);
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  .about_us {
+    grid-column: 2/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem 0 0.5rem;
+  }
+
+  .read_more {
+    width: 50%;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
+    padding: 1.3rem;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+  }
+  .read_more:hover {
+    cursor: pointer;
+    background-color: var(--Very-dark-blue);
+  }
+
+  /* MediaQueries */
+  @media only screen and (max-width: 600px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main_title {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
+    .about_us {
+      height: 17rem;
+    }
+  }
