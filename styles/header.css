@@ -12,6 +12,9 @@
     font-size: 5rem;
     letter-spacing: -0.5rem;
   }
+  .logo:hover {
+    color: #222;
+  }
 
   .container_header_menu {
     display: none;
