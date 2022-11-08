@@ -24,7 +24,11 @@
     cursor: pointer;
     color: var(--Soft-orange);
   }
-  
+
+  a {
+    text-decoration: nome;
+  }
+
   /* MediaQueries */
   @media only screen and (max-width: 600px) {
     .small_text {
