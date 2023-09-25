@@ -18,7 +18,7 @@ Design by FrontEnd Mentor: https://www.frontendmentor.io
 
 ## :rocket: Run project
 ```
-https://project-url.com
+https://richard-passos.github.io/fe-homepage-news/
 ```
 
 <br>
