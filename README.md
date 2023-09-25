@@ -1,15 +1,27 @@
 <h1 align="center">:file_cabinet: News</h1>
 
+<br>
+
 ## :memo: Description
-News homepage
+News homepage.
+
+Design by FrontEnd Mentor: https://www.frontendmentor.io
+
+<br>
 
 ## :wrench: Technologies used
 * JavaScript
 * CSS
 * HTML
 
-## :rocket: Running the project
-To run the repository, it is recommended to clone it.
+<br>
+
+## :rocket: Run project
+```
+https://project-url.com
+```
+
+<br>
 
 ## :handshake: Team
 <table>
@@ -25,5 +37,7 @@ To run the repository, it is recommended to clone it.
   </tr>
 </table>
 
-## :dart: Project status
+<br>
+
+## :dart: Status
 Finished
