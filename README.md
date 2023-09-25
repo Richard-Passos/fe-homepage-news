@@ -3,7 +3,7 @@
 <br>
 
 ## :memo: Description
-News homepage.
+News homepage. Just to practice.
 
 Design by FrontEnd Mentor: https://www.frontendmentor.io
 
